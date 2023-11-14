@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 239, 238);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(166, 187, 224);
+    padding: 1rem 2.5rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(55, 55, 55);
+
+}
+
+main {
+    text-align: center;
+    margin: 2rem;
+}
+
+#addList {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    justify-content: space-evenly;
+    margin: 0 5rem;
+}
+
+#addTarefa {
+    height: 2rem;
+    width: 50vw;
+    padding: 10px;
+    border: rgb(166, 187, 224) 1px solid;
+    border-radius: 5px;
+}
+
+#btn {
+    height: 3rem;
+    width: 15vw;
+    padding: 10px;
+    border: none;
+    color: rgb(55, 55, 55);
+    background-color: rgb(166, 187, 224);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#lista {
+    list-style: none;
+    margin: 2.5rem 11rem;
+}
+
+#lista li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10px;
+    font-weight: bolder;
+}
+
+#lista li i {
+    color: rgb(55, 55, 55);
+    font-size: 20px;
+    cursor: pointer;
+}
